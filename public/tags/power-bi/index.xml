@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power BI on Daciana Draghia&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/power-bi/</link>
+    <description>Recent content in Power BI on Daciana Draghia&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2017 11:14:48 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power BI: Pie chart</title>
+      <link>http://localhost:1313/post/chapter-4/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <guid>http://localhost:1313/post/chapter-4/</guid>
+      <description>&lt;p&gt;Our data:&#xA;&lt;img src=&#34;http://localhost:1313/images/ProjectPiedb.png&#34; alt=&#34;alt text&#34; title=&#34;Overview&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The result&#xA;&lt;img src=&#34;http://localhost:1313/images/projectpieviz.png&#34; alt=&#34;alt text&#34; title=&#34;Overview&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Power BI: extracting values</title>
+      <link>http://localhost:1313/post/chapter-3/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      <guid>http://localhost:1313/post/chapter-3/</guid>
+      <description>&lt;p&gt;Question to be answered in this project:&#xA;How many kids do married people have in average in our dataset?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/xtractingvaluesdb.png&#34; alt=&#34;alt text&#34; title=&#34;Overview&#34;&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;I cleaned the data first using the following tools /steps in Power BI:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;o Remove Top Rows&lt;/p&gt;&#xA;&lt;p&gt;o First row as a header&lt;/p&gt;&#xA;&lt;p&gt;o Changing column names&lt;/p&gt;&#xA;&lt;p&gt;o Removing invalid rows&lt;/p&gt;&#xA;&lt;p&gt;o Setting up the data types (replace values if necessary)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/extractingvaluesviz.png&#34; alt=&#34;alt text&#34; title=&#34;Overview&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
