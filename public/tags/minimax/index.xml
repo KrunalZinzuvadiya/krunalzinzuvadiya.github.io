@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minimax on Krunal Zinzuvadiya&#39;s Portfolio</title>
-    <link>http://localhost:51781/tags/minimax/</link>
+    <link>http://localhost:1313/tags/minimax/</link>
     <description>Recent content in Minimax on Krunal Zinzuvadiya&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Sep 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51781/tags/minimax/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/minimax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect4 AI: Minimax vs. Reinforcement Learning</title>
-      <link>http://localhost:51781/post/chapter-5/</link>
+      <link>http://localhost:1313/post/chapter-5/</link>
       <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:51781/post/chapter-5/</guid>
+      <guid>http://localhost:1313/post/chapter-5/</guid>
       <description>&lt;p&gt;This project demonstrates the implementation of the Connect4 game, with two AI agents playing against each other: one based on the Minimax algorithm and the other using Reinforcement Learning (RL). The Minimax algorithm evaluates the game tree to make optimal moves, while the RL agent learns from rewards and experiences.&lt;/p&gt;&#xA;&lt;h3 id=&#34;game-mechanics&#34;&gt;Game Mechanics&lt;/h3&gt;&#xA;&lt;p&gt;The game is built on the traditional Connect4 rules, with players taking turns to drop their pieces into a vertical grid. The goal is to connect four pieces in a row, either vertically, horizontally, or diagonally.&lt;/p&gt;</description>
     </item>
   </channel>
