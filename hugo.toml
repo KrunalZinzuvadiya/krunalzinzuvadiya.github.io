@@ -30,11 +30,11 @@ enableRobotsTXT = true
 [params.ananke_socials]
  [params.ananke_socials.github]
       name = "github"
-      url = "https://github.com/ddaci"
+      url = "https://github.com/KrunalZinzuvadiya"
       color = "#ffffff"
     [params.ananke_socials.linkedin]
       name = "linkedin"
-      url = "https://www.linkedin.com/in/daciana-draghia-538a3215b/"
+      url = "https://www.linkedin.com/in/krunalzinzuvadiya/"
       color = "#ffffff"
     [params.ananke_socials.Resume]
       name = "resume"
