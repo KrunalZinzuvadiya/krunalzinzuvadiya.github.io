@@ -9,4 +9,4 @@ menu: main
 ---
 
 
-You can send me an email at daci.draghia@gmail.com
+You can send me an email at krunal.zinzuvadiya.datascience.01@gmail.com
