@@ -1,5 +1,5 @@
 title = "Krunal Zinzuvadiya's Portfolio"
-baseURL = "http://localhost:1313/"
+baseURL = "https://krunalzinzuvadiya.github.io/"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
