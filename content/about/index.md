@@ -1,8 +1,8 @@
 ---
 title: "About"
-description: "I am passionate about graphic design, photography, and data engineering."
+description: "I am passionate about data science, trekking, stock maket."
 featured_image: ''
 ---
-I am currently pursuing a Master’s degree in Data Engineering, with a focus on cloud technologies, data processing, and visualization. I aim to integrate my creative background with new skills to make a significant contribution to the tech industry.
+I am currently pursuing the data science masters.
 
-{{< figure src="/images/cover.jpg" title="A selection of my work in photography and graphic design" >}}
+{{< figure src="/images/cover.jpg" title="Insert the images relavelants need to" >}}

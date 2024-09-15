@@ -1,26 +1,31 @@
 ---
 date: 2017-04-11T11:13:32-04:00
-description: "a project in Power BI"
+description: "Frozen Lake AI: Reinforcement Learning for Optimal Pathfinding"
 featured_image: "/images/coverextractingvalues.jpg"
-tags: ["Power BI"]
-title: "Power BI: extracting values"
+tags: ["Python", "Numpy", "Matplotlib", "OpenAI Gym"]
+title: "Frozen Lake AI: Reinforcement Learning for Optimal Pathfinding"
 ---
-Question to be answered in this project:
-How many kids do married people have in average in our dataset?
 
-![alt text](/images/xtractingvaluesdb.png "Overview")
+Introduction
+This project demonstrates the application of reinforcement learning (RL) techniques to solve the classic Frozen Lake problem. The Frozen Lake environment, part of OpenAI's Gym toolkit, requires an agent to navigate across a grid of frozen surfaces without falling into holes, while reaching a goal. This project showcases expertise in developing RL agents, utilizing algorithms like Q-learning and Value Iteration to find optimal strategies for navigating the frozen terrain safely.
 
-2. I cleaned the data first using the following tools /steps in Power BI:
+Project Preview
 
-o Remove Top Rows
+Environment:
+The Frozen Lake environment is modeled as an 8x8 grid where each tile can either be frozen or a hole. The agent starts at a defined position and must find a safe path to the goal using the least number of steps.
 
-o First row as a header
+Reinforcement Learning Approach:
+The project applies Q-learning, a popular RL algorithm where the agent learns the optimal policy by maximizing the cumulative reward based on its interactions with the environment. Value Iteration was also explored to enhance the decision-making process of the agent.
 
-o Changing column names
+Challenges:
+The stochastic nature of the environment, where slipping on ice introduces randomness in movements, makes it a challenging problem for the RL agent to solve optimally.
 
-o Removing invalid rows
+Technologies Used:
 
-o Setting up the data types (replace values if necessary)
+Python: Core language for implementing the solution
+OpenAI Gym: Environment simulation for the Frozen Lake problem
+NumPy: Efficient array manipulations for storing state-action values
+Matplotlib: Visualization of learning progress and pathfinding
 
 
-![alt text](/images/extractingvaluesviz.png "Overview")
+

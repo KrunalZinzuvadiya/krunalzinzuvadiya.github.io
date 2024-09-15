@@ -1,5 +1,5 @@
 title = "Krunal Zinzuvadiya's Portfolio"
-baseURL = "https://krunalzinzuvadiya.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
@@ -17,10 +17,10 @@ enableRobotsTXT = true
 
 [params]
   text_color = ""
-  author = "Daciana Draghia"
+  author = "Krunal Zinzuvadiya"
   favicon = ""
   site_logo = ""
-  TIMEZONE = "Europe/Bucharest"
+  TIMEZONE = "Asia/Kolkata"
   date_format = "2. January 2006"
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"

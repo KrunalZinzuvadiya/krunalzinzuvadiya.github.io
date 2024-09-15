@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenAI Gym on Krunal Zinzuvadiya&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/openai-gym/</link>
+    <description>Recent content in OpenAI Gym on Krunal Zinzuvadiya&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2017 11:13:32 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/openai-gym/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frozen Lake AI: Reinforcement Learning for Optimal Pathfinding</title>
+      <link>http://localhost:1313/post/chapter-3/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      <guid>http://localhost:1313/post/chapter-3/</guid>
+      <description>&lt;p&gt;Introduction&#xA;This project demonstrates the application of reinforcement learning (RL) techniques to solve the classic Frozen Lake problem. The Frozen Lake environment, part of OpenAI&amp;rsquo;s Gym toolkit, requires an agent to navigate across a grid of frozen surfaces without falling into holes, while reaching a goal. This project showcases expertise in developing RL agents, utilizing algorithms like Q-learning and Value Iteration to find optimal strategies for navigating the frozen terrain safely.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

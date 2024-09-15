@@ -1,54 +1,28 @@
 ---
 date: 2024-04-10T11:00:59-04:00
-description: "REST API aplication on Google Cloud Platform"
+description: "Diabetes Prediction"
 featured_image: "/images/coverrestapi.jpg"
-tags: ["Google Cloud Platform"]
-title: "REST API aplication on Google Cloud Platform"
+tags: ["Python", "Pandas", "scikit-learn", "Matplotlib/Seaborn"]
+title: "Diabetes Prediction"
 ---
 
-The project presents a REST API aplication developed in Python and Flask that was created to retrieve data about books from a SQLite3 database: https://github.com/cpatrickalves/simple-flask-api
-A REST API exposes the functionalities of an application or a database through a set of endpoints (URL addresses). 
+Introduction
+This project focuses on developing a machine learning model to predict the likelihood of diabetes in individuals based on various health metrics. The dataset used includes key health factors such as glucose levels, BMI, age, and more. This project demonstrates expertise in data preprocessing, feature selection, model training, and evaluation, using libraries such as scikit-learn and pandas. The aim is to build a predictive model that can assist healthcare professionals in identifying at-risk individuals, leading to early intervention and treatment.
+[link to the project on github](https://github.com/KrunalZinzuvadiya/DiabetesPrediction)
+
+Project Preview
+
+Data Preparation:
+The dataset was cleaned, and missing values were handled to ensure accurate model training. Key features like blood pressure, insulin levels, and age were used for prediction.
+
+Model Development:
+Multiple machine learning algorithms were applied, including Logistic Regression, Decision Trees, and Random Forest, to identify the best performing model. The performance of each model was evaluated using accuracy, precision, recall, and F1-score metrics.
 
 ![alt text](/images/image13.png "Overview")
 
-These URLs are accessed by clients such as web, mobile apps, or other web services to perform CRUD operations (Create, Read, Update, Delete) or other actions using HTTP requests. The principles of REST and the use of HTTP methods (GET for reading, POST for creating, PUT/PATCH for updating, and DELETE for deleting) allow resources to be manipulated in a standardized and intuitive way.
-Description of the Data Model Used
-Our database “books.db” contains information about books. Data are stored and managed using SQLite - a serverless, file-based relational database management system.
-Choosing Data Storage Solutions, Justifying the Decision
-Since we are working with a relational database, with structured data, where each item ("book" in this case) has the same set of attributes with specific values, a good choice would be to use a combination of Google Cloud Storage and BigQuery.
-Implementation of the Used Data Model
-We will use App Engine, BigQuery, and Google Cloud Storage:
-● The user sends an HTTP request to the Flask application.
-● app.py receives the request and, if necessary, performs queries to BigQuery.
-● app.py uses requirements.txt to ensure that all necessary libraries are available for processing the request.
-● app.yaml plays a role in configuring how the application is deployed and managed on App Engine, influencing how requests are handled.
+Technologies Used:
 
-![alt text](/images/image4.png "Overview")
-Fig: 1. The diagram illustrates the interaction of users with the Flask application and how its components interact with each other.
-We activate App Engine Admin API, BigQuery API, and add roles to the App Engine service account: BigQuery Admin, BigQuery Data Viewer, BigQuery Job User.
-We fork the project https://github.com/cpatrickalves/simple-flask-api on GitHub
-In Cloud Shell, we clone the GitHub branch (where we make changes) and deploy.
-![alt text](/images/image9.png "Overview")
-App.yaml
-![alt text](/images/image8.png "Overview")
-Requirements.txt
-![alt text](/images/image3.png "Overview")
-Google Cloud Storage
-We upload books.db to Google Cloud Storage - we create a bucket that contains the database in CSV format.
-![alt text](/images/image6.png "Overview")
-We allow public access to the bucket and create a publicly accessible URL for the database.
-![alt text](/images/image7.png "Overview")
-Big Query
-We have created a dataset via Big Query. Then we created a table within the dataset and uploaded the data file (books.csv) from the storage bucket to the new table created.
-![alt text](/images/image1.png "Overview")
-We make the dataset public:
-![alt text](/images/image5.png "Overview")
-Testing a data retrieval operation from the chosen storage solution using a programming language.
-This is what the data we work with looks like.
-![alt text](/images/image12.png "Overview")
-Code in app.py
-![alt text](/images/image14.png "Overview")
-Home route: https://proiectcc-419616.ew.r.appspot.com/
-![alt text](/images/image11.png "Overview")
-Route that shows all books: https://proiectcc-419616.ew.r.appspot.com/api/v2/resources/bigquery-data**
-![alt text](/images/image10.png "Overview")
+Python: Core language for the project
+pandas, numpy: Data manipulation and preprocessing
+scikit-learn: Machine learning algorithms and model evaluation
+Matplotlib/Seaborn: Data visualization for insights and feature importance

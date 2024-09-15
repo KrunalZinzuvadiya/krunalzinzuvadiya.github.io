@@ -1,12 +1,21 @@
 ---
 title: Contact
-featured_image: ''
+featured_image: "images/notebook.jpg"
 omit_header_text: true
-description: I'd love to hear from you
+description: We'd love to hear from you
 type: page
 menu: main
 
 ---
 
+If you have any query to can mail me on
+[krunal.zinzuvadiya.datascience.01@gmail.com](mailto:krunal.zinzuvadiya.datascience.01@gmail.com)
 
-You can send me an email at krunal.zinzuvadiya.datascience.01@gmail.com
+Follow me on these social media platforms.
+
+Platform   |	      URL
+---        |          ---
+LinkedIn:  |	 "Linkedin Link"
+GitHub:    |	 "Github Link"
+Blog:      |     "Blog Link"
+Twitter:   |	 "Twitter Link"
