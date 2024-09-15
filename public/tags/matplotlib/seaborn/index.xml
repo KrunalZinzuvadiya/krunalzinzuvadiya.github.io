@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matplotlib/Seaborn on Krunal Zinzuvadiya&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/matplotlib/seaborn/</link>
+    <link>http://localhost:51781/tags/matplotlib/seaborn/</link>
     <description>Recent content in Matplotlib/Seaborn on Krunal Zinzuvadiya&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2024 11:00:59 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/matplotlib/seaborn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51781/tags/matplotlib/seaborn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diabetes Prediction</title>
-      <link>http://localhost:1313/post/chapter-2/</link>
+      <link>http://localhost:51781/post/chapter-2/</link>
       <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
-      <guid>http://localhost:1313/post/chapter-2/</guid>
+      <guid>http://localhost:51781/post/chapter-2/</guid>
       <description>&lt;p&gt;Introduction&#xA;This project focuses on developing a machine learning model to predict the likelihood of diabetes in individuals based on various health metrics. The dataset used includes key health factors such as glucose levels, BMI, age, and more. This project demonstrates expertise in data preprocessing, feature selection, model training, and evaluation, using libraries such as scikit-learn and pandas. The aim is to build a predictive model that can assist healthcare professionals in identifying at-risk individuals, leading to early intervention and treatment.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/DiabetesPrediction&#34;&gt;link to the project on github&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

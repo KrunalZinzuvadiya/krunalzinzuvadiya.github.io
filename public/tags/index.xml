@@ -1,179 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Krunal Zinzuvadiya&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content on Krunal Zinzuvadiya&#39;s Portfolio</description>
+    <title>Tags on Krunal Zinzuvadiya&#39;s Portfolio</title>
+    <link>http://localhost:51781/tags/</link>
+    <description>Recent content in Tags on Krunal Zinzuvadiya&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:51781/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/post/</link>
-      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/post/</guid>
+      <title>AI</title>
+      <link>http://localhost:51781/tags/ai/</link>
+      <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:51781/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Connect4 AI: Minimax vs. Reinforcement Learning</title>
-      <link>http://localhost:1313/post/chapter-5/</link>
+      <title>Connect4</title>
+      <link>http://localhost:51781/tags/connect4/</link>
       <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/chapter-5/</guid>
-      <description>&lt;p&gt;This project demonstrates the implementation of the Connect4 game, with two AI agents playing against each other: one based on the Minimax algorithm and the other using Reinforcement Learning (RL). The Minimax algorithm evaluates the game tree to make optimal moves, while the RL agent learns from rewards and experiences.&lt;/p&gt;&#xA;&lt;h3 id=&#34;game-mechanics&#34;&gt;Game Mechanics&lt;/h3&gt;&#xA;&lt;p&gt;The game is built on the traditional Connect4 rules, with players taking turns to drop their pieces into a vertical grid. The goal is to connect four pieces in a row, either vertically, horizontally, or diagonally.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Krunal Zinzuvadiya</title>
-      <link>http://localhost:1313/</link>
-      <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/</guid>
+      <guid>http://localhost:51781/tags/connect4/</guid>
       <description></description>
     </item>
     <item>
-      <title>Diabetes Prediction</title>
-      <link>http://localhost:1313/post/chapter-2/</link>
+      <title>Minimax</title>
+      <link>http://localhost:51781/tags/minimax/</link>
+      <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:51781/tags/minimax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://localhost:51781/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 15 Sep 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:51781/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matplotlib</title>
+      <link>http://localhost:51781/tags/matplotlib/</link>
       <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
-      <guid>http://localhost:1313/post/chapter-2/</guid>
-      <description>&lt;p&gt;Introduction&#xA;This project focuses on developing a machine learning model to predict the likelihood of diabetes in individuals based on various health metrics. The dataset used includes key health factors such as glucose levels, BMI, age, and more. This project demonstrates expertise in data preprocessing, feature selection, model training, and evaluation, using libraries such as scikit-learn and pandas. The aim is to build a predictive model that can assist healthcare professionals in identifying at-risk individuals, leading to early intervention and treatment.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/DiabetesPrediction&#34;&gt;link to the project on github&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:51781/tags/matplotlib/</guid>
+      <description></description>
     </item>
     <item>
-      <title>QR Code Scanner</title>
-      <link>http://localhost:1313/post/chapter-1/</link>
+      <title>Matplotlib/Seaborn</title>
+      <link>http://localhost:51781/tags/matplotlib/seaborn/</link>
+      <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
+      <guid>http://localhost:51781/tags/matplotlib/seaborn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>http://localhost:51781/tags/pandas/</link>
+      <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
+      <guid>http://localhost:51781/tags/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:51781/tags/python/</link>
+      <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
+      <guid>http://localhost:51781/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scikit-Learn</title>
+      <link>http://localhost:51781/tags/scikit-learn/</link>
+      <pubDate>Wed, 10 Apr 2024 11:00:59 -0400</pubDate>
+      <guid>http://localhost:51781/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numpy</title>
+      <link>http://localhost:51781/tags/numpy/</link>
       <pubDate>Fri, 01 Mar 2024 13:16:06 +0300</pubDate>
-      <guid>http://localhost:1313/post/chapter-1/</guid>
-      <description>&lt;p&gt;Developed a real-time QR code scanner using Python and OpenCV, capable of detecting and decoding QR codes from a live webcam feed.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/QRCode&#34;&gt;link to the project on github&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here’s a similar text generation for a &lt;strong&gt;QR Code Project&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;This project involves creating a dynamic QR code generator using Python. The aim of this project is to provide users with a tool to generate custom QR codes based on user inputs, such as URLs, text, and contact details. The QR codes can be easily scanned by any QR reader and used in a variety of applications. This project demonstrates expertise in data encoding, image generation, and user interface design using libraries like &lt;code&gt;qrcode&lt;/code&gt; and &lt;code&gt;Pillow&lt;/code&gt;. The goal is to deliver a simple yet powerful tool for generating scannable codes in multiple formats.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/QRCodeProject&#34;&gt;link to the project on GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:51781/tags/numpy/</guid>
+      <description></description>
     </item>
     <item>
-      <title>Project Title hee</title>
-      <link>http://localhost:1313/post/chapter-4/</link>
+      <title>OpenCV</title>
+      <link>http://localhost:51781/tags/opencv/</link>
+      <pubDate>Fri, 01 Mar 2024 13:16:06 +0300</pubDate>
+      <guid>http://localhost:51781/tags/opencv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tags to Show</title>
+      <link>http://localhost:51781/tags/tags-to-show/</link>
       <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      <guid>http://localhost:1313/post/chapter-4/</guid>
-      <description>&lt;p&gt;Describe in detail the project here with photos if possible.&lt;/p&gt;</description>
+      <guid>http://localhost:51781/tags/tags-to-show/</guid>
+      <description></description>
     </item>
     <item>
-      <title>Frozen Lake AI: Reinforcement Learning for Optimal Pathfinding</title>
-      <link>http://localhost:1313/post/chapter-3/</link>
+      <title>OpenAI Gym</title>
+      <link>http://localhost:51781/tags/openai-gym/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>http://localhost:1313/post/chapter-3/</guid>
-      <description>&lt;p&gt;Introduction&#xA;This project demonstrates the application of reinforcement learning (RL) techniques to solve the classic Frozen Lake problem. The Frozen Lake environment, part of OpenAI&amp;rsquo;s Gym toolkit, requires an agent to navigate across a grid of frozen surfaces without falling into holes, while reaching a goal. This project showcases expertise in developing RL agents, utilizing algorithms like Q-learning and Value Iteration to find optimal strategies for navigating the frozen terrain safely.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/tags-to-show/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tags-to-show/</guid>
+      <guid>http://localhost:51781/tags/openai-gym/</guid>
       <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/scikit-learn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/scikit-learn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/reinforcement-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/pandas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pandas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/opencv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/opencv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/openai-gym/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openai-gym/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/numpy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/numpy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/minimax/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minimax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/matplotlib/seaborn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/matplotlib/seaborn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/matplotlib/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/matplotlib/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/connect4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/connect4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/categories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I am currently pursuing the data science masters.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/cover.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Insert the images relavelants need to&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;If you have any query to can mail me on&#xA;&lt;a href=&#34;mailto:krunal.zinzuvadiya.datascience.01@gmail.com&#34;&gt;krunal.zinzuvadiya.datascience.01@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Follow me on these social media platforms.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Platform&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;URL&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;LinkedIn:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;Linkedin Link&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;GitHub:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;Github Link&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Blog:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;Blog Link&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Twitter:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&amp;ldquo;Twitter Link&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
   </channel>
 </rss>

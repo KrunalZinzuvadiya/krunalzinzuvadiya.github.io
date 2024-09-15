@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Numpy on Krunal Zinzuvadiya&#39;s Portfolio</title>
-    <link>http://localhost:1313/tags/numpy/</link>
+    <link>http://localhost:51781/tags/numpy/</link>
     <description>Recent content in Numpy on Krunal Zinzuvadiya&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 13:16:06 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51781/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QR Code Scanner</title>
-      <link>http://localhost:1313/post/chapter-1/</link>
+      <link>http://localhost:51781/post/chapter-1/</link>
       <pubDate>Fri, 01 Mar 2024 13:16:06 +0300</pubDate>
-      <guid>http://localhost:1313/post/chapter-1/</guid>
-      <description>&lt;p&gt;Developed a real-time QR code scanner using Python and OpenCV, capable of detecting and decoding QR codes from a live webcam feed.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/QRCode&#34;&gt;link to the project on github&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The following figure shows the logical scheme and structure of the project. It also illustrates the addition of a new fingerprint to the database and the deletion of a record.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/schema.png&#34; alt=&#34;alt text&#34; title=&#34;Overview&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The graphical interface of the application (GUI) is built using the Tkinter library and looks like this:&lt;/p&gt;</description>
+      <guid>http://localhost:51781/post/chapter-1/</guid>
+      <description>&lt;p&gt;Developed a real-time QR code scanner using Python and OpenCV, capable of detecting and decoding QR codes from a live webcam feed.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/QRCode&#34;&gt;link to the project on github&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here’s a similar text generation for a &lt;strong&gt;QR Code Project&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;This project involves creating a dynamic QR code generator using Python. The aim of this project is to provide users with a tool to generate custom QR codes based on user inputs, such as URLs, text, and contact details. The QR codes can be easily scanned by any QR reader and used in a variety of applications. This project demonstrates expertise in data encoding, image generation, and user interface design using libraries like &lt;code&gt;qrcode&lt;/code&gt; and &lt;code&gt;Pillow&lt;/code&gt;. The goal is to deliver a simple yet powerful tool for generating scannable codes in multiple formats.&#xA;&lt;a href=&#34;https://github.com/KrunalZinzuvadiya/QRCodeProject&#34;&gt;link to the project on GitHub&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frozen Lake AI: Reinforcement Learning for Optimal Pathfinding</title>
-      <link>http://localhost:1313/post/chapter-3/</link>
+      <link>http://localhost:51781/post/chapter-3/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>http://localhost:1313/post/chapter-3/</guid>
+      <guid>http://localhost:51781/post/chapter-3/</guid>
       <description>&lt;p&gt;Introduction&#xA;This project demonstrates the application of reinforcement learning (RL) techniques to solve the classic Frozen Lake problem. The Frozen Lake environment, part of OpenAI&amp;rsquo;s Gym toolkit, requires an agent to navigate across a grid of frozen surfaces without falling into holes, while reaching a goal. This project showcases expertise in developing RL agents, utilizing algorithms like Q-learning and Value Iteration to find optimal strategies for navigating the frozen terrain safely.&lt;/p&gt;</description>
     </item>
   </channel>

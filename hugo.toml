@@ -1,5 +1,5 @@
 title = "Krunal Zinzuvadiya's Portfolio"
-baseURL = "http://localhost:1313/"
+baseURL = "https://krunalzinzuvadiya.github.io/"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
@@ -38,7 +38,7 @@ enableRobotsTXT = true
       color = "#ffffff"
     [params.ananke_socials.Resume]
       name = "resume"
-      url = "/docs/DraghiaD_CV_ro242c.pdf"
+      url = "/docs/Ankita_Mukherjee_CV.pdf"
       label = "Resume"
       color = "#ffffff"
 

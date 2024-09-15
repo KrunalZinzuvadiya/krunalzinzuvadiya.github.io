@@ -5,4 +5,4 @@ featured_image: ''
 ---
 I am currently pursuing the data science masters.
 
-{{< figure src="/images/cover.jpg" title="Insert the images relavelants need to" >}}
+{{< figure src="/images/websitecover.jpg" title="Insert the images relavelants need to" >}}
