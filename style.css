@@ -1,0 +1,809 @@
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Home page Code- Start----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+/*------------------------------------------------colors for webpages---------------------------------------------------*/
+:root
+{
+    --primary-color: black ;
+    --secondary-color: #fff;
+    --main-color: #1DC8CD;
+}
+
+.dark-mode{
+    --primary-color: #fff;
+    --secondary-color: #0b061f;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index:  100;
+    transition: .5s;
+}
+
+.header .sticky{
+    background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
+}
+
+.logo{
+    font-size: 25px;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    margin-right: auto;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+/* Default link styles */
+
+.navbar a.clicked {
+    color: var(--main-color); /* Blue for clicked links */
+}
+
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: var(--secondary-color); /* Default link color */
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Active link styles */
+
+
+/* Underline styling for all links (initially hidden) */
+.navbar a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0; /* No underline by default */
+    height: 2px;
+    background: var(--main-color); /* Same as active text color */
+    transition: width 0.3s ease-in-out;
+}
+
+/* Hover effect: show underline */
+.navbar a:hover::before {
+    width: 100%; /* Full underline */
+}
+
+/* Active link underline */
+/* 
+/* Optional slider for additional effect */
+.navbar .slider {
+    position: absolute;
+    bottom: -6px;
+    height: 2px;
+    background: var(--main-color);
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-padding-top: 80px; /* Adjust the value based on the height of your navbar */
+}
+
+/* Add styles to the toggle button if required */
+.toggle {
+    display: flex;
+    margin-top: 1px;
+    cursor: pointer;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 3.5s;
+}
+
+.toggle .toggle-icon {
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 7% 0;
+}
+.home .home-content{
+    max-width: 440px;
+}
+
+.home-content h3{
+    font-size:  32px;
+    line-height: .3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .7s;
+    line-height: 1.5;
+}
+.home-content h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    letter-spacing: -1px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.home-content p{
+    font-size:  16px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .7s;
+
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    font-size: 20px;
+    color: var(--secondary-color);
+    text-decoration: none ;
+    margin: 25px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc( .2s * var(--i));
+}
+
+.social-media a:hover{
+    background: var(--main-color);
+    color: #fff;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    color: var(--main-color);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    transition:.5s ease;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.btn:hover
+{
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.home .profession-container
+{
+ position: absolute;
+ top: 0;
+ right: 0;
+ width: 768px;
+ height: 768px;
+ background: var(--primary-color);
+ overflow: hidden;
+}
+
+.profession-container .profession-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    animation: slideLeft 1s ease forwards, professionRotate 30s ease-out infinite;
+    animation-delay: 2.5s, 4s;
+
+}
+
+
+/*-----------------------------------------------profession names editing--------------------------------------------------*/
+.profession-box .profession{
+    position: absolute;
+    left: 0;
+    transform-origin: 384px;
+    transform: rotate(calc(360deg / 4 * var(--i)));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-color);
+    padding: 13px 0;
+}
+/*_____________________________________________________________________________________________________________________________*/
+
+
+.profession-box .profession:nth-child(1) i{
+    margin-right: 15px;
+}
+
+.profession-box .profession:nth-child(2){
+    padding-bottom: 20px;
+}
+
+.profession-box .profession:nth-child(4){
+    padding-bottom: 20px;
+}
+
+
+
+.profession i {
+    font-size: 38px;
+}
+
+.profession h3{
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 600;
+}
+.profession-box .circle {
+    width: 72%;
+    height: 72%;
+    border: 3px solid var(--secondary-color);
+    border-radius: 50%;
+}
+
+.profession-container .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    /* -----------------------------------photo section---------------------------------------*/
+    border-top: 384px solid var(--primary-color);
+    border-right: 384px solid var(--primary-color);
+    border-bottom: 384px solid var(--primary-color);
+    
+    border-left: 384px solid transparent;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.5s;
+}
+
+.home-img img
+{
+    position: absolute;
+    right: 105px;
+    height: 370px; 
+    top: 200px;    
+}
+
+
+/*KEYFRAMES ANIMATION*/
+
+/*------------------------------Intro Animation Right-------------------------------*/
+@keyframes slideRight
+{
+0%{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+100%{  
+    opacity: 1;
+    transform: translateX(0);
+   }   
+}
+
+/*-----------------------Intro Animation left---------------------*/
+@keyframes slideLeft
+{
+0%{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+100%{  
+    opacity: 1;
+    transform: translateY(0);
+   }   
+}
+
+/*-----------------------button Animation---------------------*/
+@keyframes slideTop
+{
+0%{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+100%{  
+    opacity: 1;
+    transform: translateYs(0);
+   }   
+}
+
+/*-------------------------------profession rotations-------------------------------*/
+@keyframes professionRotate {
+    0%,20%{
+        transform: rotate(0deg);
+    }
+    25%,45%{
+        transform: rotate(-90deg);
+    }
+    50%,70%{
+        transform: rotate(-180deg);
+    }
+    75%,95%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+    /*0%,20%{
+        transform: rotate(0deg);
+    }
+    */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------Home page Code- End----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------About page code- Start----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+span{
+    color: var(--main-color);
+}
+
+.about{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    transform: scale(0.90); 
+}
+.about.shrink {
+     /* Adjust the scale value as needed */
+    transition: transform 0.3s ease; /* Optional: Add a transition effect */
+}
+.about-img img{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    left: 55px;
+    border: 55px solid white;
+    box-shadow: 0 0 21px 3px rgba(0, 0, 0, 0) inset, 0 15px 54px 10px rgba(0, 0, 0, .1);
+    padding: 16px;
+    border-radius: 0px;
+    border-width: 10px;
+    
+}
+.heading{
+font-size: 2.5rem;
+text-align: center;
+}
+ 
+.about-content p{
+   /* font-size: 1.6rem;*/
+
+   margin: 2rem 0 3rem;
+   letter-spacing: 3px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------skills Code- start----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.skills__content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between items */
+    transform: scale(0.90);
+}
+
+.skills.shrink {
+     /* Adjust the scale value as needed */
+    transition: transform 0.3s ease; /* Optional: Add a transition effect */
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 8 - 20px); /* Set width to occupy 1/8 of the container width */
+}
+
+.skills__img {
+    width: 70px; /* Adjust the width of the images */
+    margin-bottom: 0.5rem; /* Add some bottom margin for spacing */
+}
+
+.skills__name {
+    font-size: 14px; /* Adjust the font size of the skill names */
+    color: white; /* Adjust the color of the skill names */
+}
+
+.skills__box:hover {
+    transform: translateY(-5px); /* Add a slight upward translation on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------Skills Code- Ends here----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------My Work page Code- start----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Mywork{
+     -webkit-font-smoothing: antialiased; 
+     margin: 0;
+     margin-top: 200px;
+    }
+    
+.flex { display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: row; 
+     flex-direction: row;
+     -webkit-justify-content: flex-start;
+     justify-content: flex-start;
+}
+
+.slider-wrapper div {
+    position: relative;
+}
+.slider-wrapper {
+    margin-top: -50px; 
+    margin-left: 11vw; 
+    height: 90vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.slide-image {
+    height: 30vw;
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+}
+.slide-image img {width: 30vw;
+     cursor: pointer;}
+
+/*--------------------------------------------------Code for the content----------------------------------------------------------*/
+.slide-content {width: 70vw; 
+    color: #fff; 
+    padding:3vw 18vw 3vw 9vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    }
+
+
+/*----------------------------------------------------------------projects number---------------------------------------------------------------------*/
+.slide-date {  /*This for Project number*/
+    color: #0a8acb; 
+    font-size: 1.1vw; 
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.4vw;
+    }
+ /*---------------------------------------------------------------------Project Name---------------------------------------------------------------------------------*/   
+.slide-title {
+    font-size: 1.2vw; 
+    font-weight: 400;
+    letter-spacing: 0.1vw; 
+    line-height: 1.55vw; 
+    padding-bottom: 1.8vw;
+    align-items: left;
+    margin-top: 10px; /*it used to push elements upward directions*/
+    }
+
+/*---------------------------------------------------------------------Project Description----------------------------------------------------------------------------*/
+.slide-text {
+    font-size: 0.90vw; 
+    line-height: 1.2vw; 
+    opacity: 0.8; 
+    padding-bottom: 4vw;
+    text-align: left;
+    margin-top: -10px;
+}
+
+/*--------------------------------------------------Button editing code--------------------------------------------------*/
+.slide-more { 
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 12px;
+    color: var(--secondary-color);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #1DC8CD, #02575a);
+    cursor: pointer;
+    margin-top: -30px;
+}
+.slide-more a {
+    text-decoration: none; /* Remove underline from links inside the button */
+    color: var(--secondary-color);
+}
+.slide-more:hover {
+    background: linear-gradient(270deg, #02575a, #1DC8CD); /* Change background color on hover */
+}
+.slide-bullet {
+    width: 0.5vw; 
+    height: 0.5vw;
+    background-color: #0b8bcc; 
+    border-radius: 200%; 
+    position: relative; 
+    margin-left: 1.2vw;}
+    
+.slide-nav {
+    margin-left: 64vw;
+    margin-top: -5.5vw;
+}
+
+div.overlay-blue {
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    transition: 0.5s ease all;
+}
+
+div.overlay-blue:hover {
+    background-color: rgba(13, 27, 43, 0.5);
+}
+
+.arrows{ 
+    width: 3.5vw; 
+    margin-top: -8.8vw;
+    margin-left: 72vw; 
+    position: relative;/* Set the position to fixed */
+    top: 50%; /* Adjust the top position as needed */
+    transform: translateY(-50%); /* Center the arrows vertically */
+    z-index: 1000; /* Ensure the arrows appear above other elements */}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    width: 1.2vw;
+    height: 1.2vw;
+    background: transparent; 
+    text-indent: -9999px;
+    border-top: 0.15vw solid var(--main-color);
+    border-left: 0.15vw solid var(--main-color);
+    transition: all .1s ease-in-out; 
+    text-decoration: none;
+    color: transparent;
+}
+
+
+/*------------------------------------------------------Button hover effect-------------------------------------------------------------*/
+.arrow:hover {
+    border-color: var(--secondary-color); 
+    border-width: 0.25vw;
+}
+.arrow:before {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: "";
+    transform: rotate(45deg);
+}
+.arrow.prev {
+    transform: rotate(-45deg);
+    left: -10px;  /* Adjust the left position as needed */
+
+    }
+.arrow.next {
+    transform: rotate(135deg); 
+    right: -10px;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------My work section ends here-----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------Certification section start here-----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.certificate{
+    -webkit-font-smoothing: antialiased; 
+    margin: 0;
+    margin-top: 180px;
+    transform: scale(0.90);
+}
+
+.certificate.shrink {
+     /* Adjust the scale value as needed */
+    transition: transform 0.3s ease; /* Optional: Add a transition effect */
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns to 3 */
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 100%; /* Ensure the images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------Certification section ends here-----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------contact page Code- start-----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contact{
+    margin: 15rem 0 15rem;
+    margin-top: 100px;
+}
+.contact-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #1DC8CD;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #0b061f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #1DC8CD;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #1DC8CD, #02575a);
+    cursor: pointer;
+}
+
+/*--contact form image--*/
+.contact-right img{
+    width: 500px;
+}
+@media (max-width: 800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns to 3 */
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 100%; /* Ensure the images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
