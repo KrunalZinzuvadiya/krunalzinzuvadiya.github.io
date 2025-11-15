@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="work.css">
-    <link rel="stylesheet" href="style_certi.css">
     <link rel="stylesheet" href="lightbox.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
 </head>
 <body>   
-    <header class="header" style="background-color: black;">
+    <header class="header">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
             <a href="#" class="active">Home</a>
             <a href="#about">About Me</a>
-            <a href="#My Work">Projects</a>
+            <a href="#projects">Projects</a>
             <a href="#certi">Certifications</a>
-            <a href="#My contact">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     
@@ -35,14 +33,14 @@
 
     <section class="home">
         <div class="home-content">
-       <h3>Hello, I'm</h3><h1><span class="first-name">Krunal</span><span class="last-name"> Zinzuvadiya</span></h1>
-        <p>A career is a portfolio of projects that teach you new skills,
-             gain you new expertise, develop new capabilities, 
-             grow your colleague set, and constantly reinvent you as a brand.</p>
-            
+            <h3>Hello, I'm</h3>
+            <h1><span class="first-name">Krunal</span><span class="last-name"> Zinzuvadiya</span></h1>
+            <p>A career is a portfolio of projects that teach you new skills,
+                 gain you new expertise, develop new capabilities, 
+                 grow your colleague set, and constantly reinvent you as a brand.</p>
             
             <div class="social-media">
-               <a href="https://wa.me/919426010560" style="--i:6;"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://wa.me/919426010560" style="--i:6;"><i class='bx bxl-whatsapp'></i></a>
                 <a href="https://www.instagram.com/krunalsoni.736613/profilecard/?igsh=ZjA4ZnAwbzJzZ2xm" style="--i:7;"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.linkedin.com/in/krunalzinzuvadiya/" style="--i:8;"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/KrunalZinzuvadiya" style="--i:9;"><i class='bx bxl-github' ></i></a>
@@ -51,48 +49,32 @@
             <a href="Krunal Zinzuvadiya Resume.pdf" class="btn">DOWNLOAD CV</a>
         </div>
 
-        <!--____________________________________________Professions__________________________________________________________-->
-    <div class="profession-container">
-    <div class="profession-box">
-   
-   
-     <div class="profession" style="--i:0;">
-        <i class='bx bxl-graphql'></i>
-        <h3>Data Scientist</h3>
-    </div>
-   
-   
-    <div class="profession" style="--i:1">
-        <i class="bx bx-code-alt"></i>
-        <h3>Data Analyst</h3>
-    </div>
-   
-   
-    <div class="profession" style="--i:2;">
-        <i class='bx bx-data' ></i>
-        <h3>SQL Developer</h3>
-    </div>
-  
-    
-    <div class="profession" style="--i:3;">
-        <i class='bx bxl-python'></i>
-        <h2>AI Engineering</h2>
-    </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxl-graphql'></i>
+                    <h3>Data Scientist</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-data' ></i>
+                    <h3>SQL Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-python'></i>
+                    <h2>AI Engineering</h2>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
 
-    <div class="class"></div>
-  </div>
-
-<div class="overlay"></div>
-</div>
-
-
-<div class="home-img">
-
-<!--Photo section-->
-<img src="home.jpg" alt="image">
-</div>
-
-</section>
+        <div class="home-img">
+            <img src="home.jpg" alt="Krunal Zinzuvadiya">
+        </div>
+    </section>
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -138,86 +120,177 @@
     <hr size = 20 color = "black">
 
     <!------------------------------------------------------PowerBI------------------------------------------------------------>
-    <div class="skills__content grid">
+        <div class="skills__content grid">
         <div class="skills__box">
-            <img src="Images\skills-img\power bi.png" alt="image" class ="skills__img">
-            <span class="skills__name">Power BI</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\power bi.png" alt="image" class ="skills__img">
+                    <span class="skills__name">Power BI</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Power BI</span>
+                </div>
+            </div>
         </div>
 
     <!------------------------------------------------------Python------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\python-5.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Python</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\python-5.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Python</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Python</span>
+                </div>
+            </div>
         </div>
 
     <!------------------------------------------------------R------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\r-lang.svg" alt="image" class ="skills__img">
-            <span class="skills__name">R</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\r-lang.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">R</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">R</span>
+                </div>
+            </div>
         </div>
 
 
     <!------------------------------------------------------Seaborn------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\seaborn-1.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Seaborn</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\seaborn-1.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Seaborn</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Seaborn</span>
+                </div>
+            </div>
         </div>
 
     <!------------------------------------------------------Pandas------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\pandas.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Pandas</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\pandas.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Pandas</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Pandas</span>
+                </div>
+            </div>
         </div>
 
         
     <!------------------------------------------------------Postgresql------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\postgresql.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Postgresql</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\postgresql.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Postgresql</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Postgresql</span>
+                </div>
+            </div>
         </div>
 
         
     <!------------------------------------------------------NUMPY------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\numpy-1.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Numpy</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\numpy-1.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Numpy</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Numpy</span>
+                </div>
+            </div>
         </div>
 
     <!------------------------------------------------------Office-365------------------------------------------------------------>
     <div class="skills__box">
-        <img src="Images\skills-img\office-365-icon.svg" alt="image" class ="skills__img">
-        <span class="skills__name">office-365-icon</span>
+        <div class="skills__box-inner">
+            <div class="skills__box-front">
+                <img src="Images\skills-img\office-365-icon.svg" alt="image" class ="skills__img">
+                <span class="skills__name">Office 365</span>
+            </div>
+            <div class="skills__box-back">
+                <span class="skills__name">Office 365</span>
+            </div>
+        </div>
     </div>
 
     <!------------------------------------------------------OpenCV------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\opencv-svgrepo-com.svg" alt="image" class ="skills__img">
-            <span class="skills__name">OpenCV</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\opencv-svgrepo-com.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">OpenCV</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">OpenCV</span>
+                </div>
+            </div>
         </div>
 
         
     <!------------------------------------------------------Machine Learning------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\ML.png" alt="image" class ="skills__img">
-            <span class="skills__name">Machine Learning</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\ML.png" alt="image" class ="skills__img">
+                    <span class="skills__name">Machine Learning</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Machine Learning</span>
+                </div>
+            </div>
         </div>
     
      <!------------------------------------------------------Matplotlib------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\matplotlib-1.svg" alt="image" class ="skills__img">
-            <span class="skills__name">Matplotlib</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\matplotlib-1.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">Matplotlib</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">Matplotlib</span>
+                </div>
+            </div>
         </div>
     
      <!------------------------------------------------------MongoDB------------------------------------------------------------>
         <div class="skills__box">
-            <img src="Images\skills-img\mongodb-icon-2.svg" alt="image" class ="skills__img">
-            <span class="skills__name">MongoDB</span>
+            <div class="skills__box-inner">
+                <div class="skills__box-front">
+                    <img src="Images\skills-img\mongodb-icon-2.svg" alt="image" class ="skills__img">
+                    <span class="skills__name">MongoDB</span>
+                </div>
+                <div class="skills__box-back">
+                    <span class="skills__name">MongoDB</span>
+                </div>
+            </div>
         </div>
     
     <!------------------------------------------------------Linux------------------------------------------------------------>
     <div class="skills__box">
-        <img src="Images\skills-img\linux-tux-1.svg" alt="image" class ="skills__img">
-        <span class="skills__name">Linux</span>
+        <div class="skills__box-inner">
+            <div class="skills__box-front">
+                <img src="Images\skills-img\linux-tux-1.svg" alt="image" class ="skills__img">
+                <span class="skills__name">Linux</span>
+            </div>
+            <div class="skills__box-back">
+                <span class="skills__name">Linux</span>
+            </div>
+        </div>
     </div>
 
 
@@ -237,7 +310,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<section class="Mywork" id="My Work">
+<section class="Mywork" id="projects">
     <h2 class="heading">MY<span>  PROJECTS</span></h2>
     <div class="slider">
         <div class="slider-wrapper flex">
@@ -332,7 +405,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-<section class="contact" id="My contact">
+<section class="contact" id="contact">
     <h2 class="heading">GET IN<span>  TOUCH</span></h2> 
     <div class="contact-container">
         <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
