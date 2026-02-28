@@ -1,2 +1,1 @@
-# krunalzinzuvadiya.github.io
-Portfolio
+# personal-website
