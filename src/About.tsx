@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Code, Coffee, Heart } from 'lucide-react';
 import profileImage from '../images/generated-1772222198515.png';
 
 export function About() {
@@ -47,44 +46,28 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="space-y-6"
+            className="space-y-6 text-left"
           >
-            <h3 className="text-2xl font-bold text-white mb-6">
-              AI/ML Engineer passionate about data-driven intelligence
+            <h3 className="text-xl md:text-2xl font-semibold leading-snug bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
+              AI Engineer — building production-grade GenAI and intelligent systems
             </h3>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              I&apos;m an aspiring AI/ML Engineer and Data Scientist from Pune, India, with a strong
-              engineering foundation. I love designing end-to-end solutions that move from raw data
-              to clear, actionable decisions using machine learning and analytics.
+              I&apos;m an AI Engineer based in India, focused on designing end-to-end systems that
+              turn raw data into reliable, real-world outcomes using machine learning and modern AI
+              stacks.
             </p>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              I completed my Bachelor&apos;s in Engineering from L.D. College of Engineering,
-              Ahmedabad, and I&apos;m currently pursuing my Master&apos;s in Data Science and
-              Spatial Analytics at Symbiosis International University (expected 2025). My projects
-              span computer vision, predictive modeling, reinforcement learning, and AutoML.
+              Currently, I work as an Associate AI Engineer at ProductSquads, where I build and
+              deploy production-grade AI solutions — from LLM-powered workflows and RAG systems to
+              scalable automation and backend AI services.
             </p>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              Outside the screen, trekking and mountaineering have taught me resilience, teamwork,
-              and how to navigate uncertainty—values I bring into every AI project.
+              Previously, I worked on applied AI systems at Petpooja and Canspirit AI, delivering
+              machine learning and data-driven solutions for real business use cases.
             </p>
-
-            <div className="flex items-center space-x-6 text-gray-400">
-              <div className="flex items-center space-x-2">
-                <Code className="text-blue-400" size={20} />
-                <span>Fluent in data &amp; algorithms</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Coffee className="text-purple-400" size={20} />
-                <span>Powered by curiosity</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Heart className="text-pink-400" size={20} />
-                <span>Passionate about AI &amp; analytics</span>
-              </div>
-            </div>
 
             <motion.div
               initial={{ opacity: 0 }}
@@ -93,8 +76,9 @@ export function About() {
               viewport={{ once: true }}
               className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 p-6 rounded-lg border border-blue-400/20"
             >
-              <p className="text-blue-300 italic">
-                &quot;Turning raw data into intelligent, real-world decisions.&quot;
+              <p className="text-blue-300 italic leading-relaxed">
+                I focus on building systems that move beyond experimentation into scalable,
+                reliable, and impactful applications.
               </p>
             </motion.div>
           </motion.div>
@@ -103,4 +87,3 @@ export function About() {
     </section>
   );
 }
-

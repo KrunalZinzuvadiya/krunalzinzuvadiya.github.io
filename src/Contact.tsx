@@ -43,7 +43,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn Profile',
-      href: '#',
+      href: 'https://www.linkedin.com/in/krunalzinzuvadiya/',
       color: 'from-blue-400 to-blue-600',
     },
   ] as const;
@@ -62,8 +62,8 @@ export function Contact() {
             Let&apos;s Connect
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Open to AI/ML engineering roles, data science collaborations, and research-driven
-            projects. Share your ideas and let&apos;s build something intelligent together.
+            Open to conversations about GenAI, LLM systems, and production AI engineering. Share
+            what you&apos;re building and let&apos;s connect.
           </p>
         </motion.div>
 
@@ -152,12 +152,12 @@ export function Contact() {
                 />
               </motion.div>
               <p className="text-gray-300 text-lg">
-                &quot;Ready to transform your data into insight-driven products.&quot;
+                &quot;Shipping intelligent systems that hold up in production—not just in demos.&quot;
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-bold text-white text-center mb-6">Connect With Me</h3>
+              {/* <h3 className="text-xl font-bold text-white text-center mb-6">Connect With Me</h3> */}
               <div className="space-y-3">
                 {socials.map((social, index) => (
                   <motion.a

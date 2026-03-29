@@ -1,15 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Brain, Cpu, Zap, Linkedin, Github, Mail } from 'lucide-react';
 
 export function Hero() {
-  const techIcons = [Brain, Cpu, Zap];
-  const socialLinks = [
-    { href: 'https://www.linkedin.com/in/krunal-zinzuvadiya', Icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://github.com/KrunalZinzuvadiya', Icon: Github, label: 'GitHub' },
-    { href: 'mailto:your-email@example.com', Icon: Mail, label: 'Email' },
-  ];
-
   return (
     <motion.section
       className="hero min-h-screen flex items-center px-6 md:px-10 lg:px-24 relative"

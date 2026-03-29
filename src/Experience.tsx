@@ -9,45 +9,45 @@ export function Experience() {
       company: 'ProductSquads • Full-time',
       period: 'Oct 2025 – Present • On-site',
       description:
-        'Working on AI/ML systems and GenAI solutions, focusing on production-grade intelligent applications.',
+        'Building and deploying production-grade GenAI systems, including LLM workflows, agentic pipelines, and backend AI services.',
       icon: Briefcase,
-      skills: ['GenAI', 'Artificial Intelligence', 'LLM Systems'],
+      skills: ['GenAI', 'LLM systems', 'Agentic AI'],
     },
     {
       title: 'AI/ML Engineer',
       company: 'Advant AI Labs • Full-time',
       period: 'May 2025 – Oct 2025 • Ahmedabad, Gujarat, India',
       description:
-        'Built and deployed machine learning and LLM-powered solutions for real-world business use cases.',
+        'Developed LLM-based chatbot systems, RAG pipelines, and FastAPI-based AI services for real-world use cases.',
       icon: Briefcase,
-      skills: ['Large Language Models', 'Python', 'ML Engineering'],
+      skills: ['LLMs', 'RAG', 'FastAPI'],
     },
     {
       title: 'Data Science Trainee',
       company: 'Petpooja • Internship',
       period: 'Jan 2025 – May 2025 • Ahmedabad, Gujarat, India • On-site',
       description:
-        'Worked on data analysis and machine learning tasks supporting restaurant technology solutions.',
+        'Applied machine learning and data analytics to solve business problems in restaurant tech systems.',
       icon: Briefcase,
-      skills: ['Python', 'SQL', 'Data Analysis'],
+      skills: ['Python', 'SQL', 'ML'],
     },
     {
       title: 'Data Science Intern',
       company: 'Canspirit Artificial Intelligence • Internship',
       period: 'May 2024 – Nov 2024',
       description:
-        'Applied data science and machine learning models to solve real-world problems using statistical techniques.',
+        'Applied machine learning and analytics on real-world datasets to deliver models and insights for business stakeholders.',
       icon: Briefcase,
-      skills: ['Machine Learning', 'Data Analysis', 'LLM'],
+      skills: ['Machine Learning', 'Data Analysis', 'Python'],
     },
     {
       title: 'M.Sc. Data Science & Spatial Analytics',
       company: 'Symbiosis International University, Pune',
       period: '2023 – 2025',
       description:
-        'Focusing on advanced machine learning, spatial analytics, and applied data science projects that connect data to real-world decisions.',
+        'Advanced coursework and projects across machine learning, spatial analytics, GenAI, and reinforcement learning—applied to real-world data problems.',
       icon: GraduationCap,
-      skills: ['Machine Learning', 'Python', 'Deep Learning', 'GenAI' , 'Reinforcement Learning'],
+      skills: ['Machine Learning', 'Python', 'Deep Learning', 'GenAI', 'Reinforcement Learning'],
     },
   ] as const;
 
@@ -64,7 +64,9 @@ export function Experience() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
             Experience Timeline
           </h2>
-          <p className="text-gray-400 text-lg">My journey into data science and AI engineering</p>
+          <p className="text-gray-400 text-lg">
+            From applied ML and analytics to production GenAI and LLM systems.
+          </p>
         </motion.div>
 
         <div className="relative">
@@ -126,4 +128,3 @@ export function Experience() {
     </section>
   );
 }
-
